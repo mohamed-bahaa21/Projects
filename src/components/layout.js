@@ -10,16 +10,17 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
-import "./layout.css"
+import "../styles/index.scss"
+import layoutStyles from "./layout.module.scss"
 
 const Layout = (props) => {
   console.log(props);
   return (
-    <div>
-      <Header headerTitle={props.headerTitle}></Header>
-
-      {props.children}
-
+    <div className={layoutStyles.container}>
+      <div className={layoutStyles.content}>
+        <Header headerTitle={props.headerTitle}></Header>
+        {props.children}
+      </div>
       <Footer></Footer>
     </div>
   )

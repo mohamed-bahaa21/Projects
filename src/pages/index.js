@@ -7,8 +7,9 @@ const IndexPage = () => (
   <Layout headerTitle="Home Page">
     <p>lorem10</p>
     <h3>Mohamed</h3>
-    <p>Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem \n
-    Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem /n
+    <p>Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem <br/>
+    Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem <br/>
+    Hello lorem Hello lorem Hello lorem Hello lorem Hello
     </p>
   </Layout>
 )
