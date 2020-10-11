@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <div>
-    <Header siteTitle="Home"></Header>
-    <Footer></Footer>
-  </div>
+  <Layout headerTitle="Home Page">
+    <p>lorem10</p>
+    <h3>Mohamed</h3>
+    <p>Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem \n
+    Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem Hello lorem /n
+    </p>
+  </Layout>
 )
 
 export default IndexPage

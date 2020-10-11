@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ headerTitle }) => (
   <header>
-    <h1>{siteTitle}</h1>
+    <h1>{headerTitle}</h1>
     <nav>
       <ul>
         <li><Link to="/">Home</Link></li>
