@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <div>
-    <Header siteTitle="Home"></Header>
+    <Header siteTitle="About"></Header>
     <Footer></Footer>
   </div>
 )
