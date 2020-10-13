@@ -2,12 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import StackedCardsComp from "../components/stacked-cards/stacked-cards.component"
+import StackedCards from "../components/StackedCards/StackedCards.component"
 
-const StackedCards = () => (
+const StackedCardsPage = () => (
   <Layout headerTitle="Home Page">
-    <StackedCardsComp />
+    <StackedCards />
   </Layout>
 )
 
-export default StackedCards
+export default StackedCardsPage
