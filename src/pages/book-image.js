@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import BookImage from "../components/BookImage/BookImage.component"
 
-const IndexPage = () => (
+const BookImagePage = () => (
   <Layout headerTitle="Home Page">
+    <BookImage />
   </Layout>
 )
 
-export default IndexPage
+export default BookImagePage
