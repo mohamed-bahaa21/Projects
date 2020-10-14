@@ -2,17 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import StackedCards from "../components/StackedCards/StackedCards.component"
+import Project from "../components/ProjectLink"
+
 
 const ProjectsPage = () => (
     <Layout headerTitle="Projects Page">
         <ol>
-            <li>
-                <Link to="/projects/stacked-cards/">Stacked Cards</Link>
-            </li>
-            <li>
-                <Link to="/book-image/">3D Book Image Generator</Link>
-            </li>
+            <Project link="/projects/stacked-cards/" name="Stacked Cards" />
+            
+            <Project link="/projects/special-product-card/" name="Special Product Card" />
         </ol>
     </Layout>
 )

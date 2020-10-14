@@ -1,12 +1,12 @@
 import React from "react"
 
-import style from "./StackedCards.style.scss"
+import StackedCardsStyle from "./StackedCards.module.scss"
 import StackedCard from "./StackedCard/StackedCard.component.js"
 
 const StackedCards = () => (
-    <div class="stackedCardsPage">
+    <div className={StackedCardsStyle.stackedCardsPage}>
 
-        <section class="cardList">
+        <section className={StackedCardsStyle.cardList}>
             <StackedCard
                 hdate="Sep 11th 2020"
                 htitle="Card Tricks are fun!"
